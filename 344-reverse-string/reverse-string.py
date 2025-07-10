@@ -8,5 +8,6 @@ class Solution:
 
         while l<r:
             s[l], s[r] = s[r], s[l]
-            l,r = l+1, r-1
+            l+=1
+            r-=1
         
