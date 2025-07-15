@@ -1,13 +1,13 @@
 class Solution:
     def isValid(self, word: str) -> bool:
-        if len(word) < 3:
+        if len(word)<3:
             return False
 
         has_vowel = False
         has_consonant = False
 
         for char in word:
-            if not char.isalnum():  # Not a letter or digit
+            if not char.isalnum():
                 return False
             if char.isalpha():
                 if char.lower() in "aeiou":
