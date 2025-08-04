@@ -14,7 +14,4 @@ class Solution:
             rev = rev*10 + ld
             x//= 10
         
-        if original == rev:
-            return True
-        else:
-            return False
+        return original == rev
