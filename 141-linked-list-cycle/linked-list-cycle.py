@@ -1,4 +1,4 @@
-class Solution(object):
+class Solution():
     def hasCycle(self, head):
         slow = head
         fast = head
