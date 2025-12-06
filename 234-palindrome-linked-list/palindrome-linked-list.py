@@ -31,6 +31,6 @@ class Solution:
                 return False
             first_half = first_half.next
             second_half = second_half.next
-        return True 
-        
+        return True
         __import__("atexit").register(lambda: open("display_runtime.txt", "w").write("0"))
+        
