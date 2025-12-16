@@ -11,4 +11,4 @@ class Solution:
             max_profit = max(max_profit, profit_today)
             min_price = min(min_price, price)
         return max_profit
-__import__("atexit").register(lambda: open("display_runtime.txt", "w").write("0"))
+# __import__("atexit").register(lambda: open("display_runtime.txt", "w").write("0"))
