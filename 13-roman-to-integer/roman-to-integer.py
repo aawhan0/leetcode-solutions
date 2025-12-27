@@ -17,8 +17,8 @@ class Solution:
             v = values[s[i]] #ith index element in s string
 
             if i+1 <n and v< values[s[i+1]]:
-                total = total - v
+                total -= v
             else:
-                total = total + v
+                total += v
             
         return total
